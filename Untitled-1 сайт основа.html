@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Агент недвижимости</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: #e0d3ff;
+    }
+    header {
+      background: #3a007a;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h1 {
+      color: #bb86fc;
+      text-align: center;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    .btn {
+      background: #bb86fc;
+      color: #0d0d0d;
+      border: none;
+      padding: 15px 30px;
+      font-weight: bold;
+      font-size: 1em;
+      cursor: pointer;
+      border-radius: 5px;
+      display: block;
+      width: 200px;
+      margin: 20px auto 0;
+      text-align: center;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background: #9a4cef;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+      color: #7e7e7e;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Ваш надежный агент недвижимости
+  </header>
+  <main>
+    <h1>Покупаете или продаете недвижимость? Мы поможем!</h1>
+    <section>
+      <h2>Для собственников</h2>
+      <p>
+        Хотите выгодно и быстро продать жилье? Мы предлагаем полный спектр услуг по профессиональной оценке, рекламе и продаже вашей недвижимости. Доверьте свой объект опытному агенту и получите максимум выгоды без лишних хлопот.
+      </p>
+      <a href="#contact" class="btn">Продать недвижимость</a>
+    </section>
+    <section>
+      <h2>Для покупателей</h2>
+      <p>
+        Ищете идеальный дом или инвестиционный объект? Мы подберем предложения с учетом ваших пожеланий, организуем просмотры и поможем с оформлением сделки. Начните свой путь к новой недвижимости с профессионалом!
+      </p>
+      <a href="#contact" class="btn">Купить недвижимость</a>
+    </section>
+    <section id="contact">
+      <h2>Свяжитесь с нами</h2>
+      <p>Заполните форму или позвоните, и мы ответим на все вопросы.</p>
+      <form>
+        <input type="text" placeholder="Имя" required style="width: 100%; padding: 10px; margin-bottom: 10px;" />
+        <input type="tel" placeholder="Телефон" required style="width: 100%; padding: 10px; margin-bottom: 10px;" />
+        <input type="email" placeholder="Email" required style="width: 100%; padding: 10px; margin-bottom: 10px;" />
+        <textarea placeholder="Ваше сообщение" required style="width: 100%; padding: 10px; margin-bottom: 10px;"></textarea>
+        <button type="submit" class="btn">Отправить</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    &copy; 2024 Агент недвижимости. Все права защищены.
+  </footer>
+</body>
+</html>
